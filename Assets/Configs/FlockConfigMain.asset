@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d76606726588942916c6729449969a, type: 3}
+  m_Name: FlockConfigMain
+  m_EditorClassIdentifier: 
+  type: Drone
+  count: 60
+  maxForce: 5
+  minSpeed: 8
+  maxSpeed: 18
+  maxAngularSpeed: 0.5
+  angularDrag: 0.3
+  nearbyObjectCount: 9
+  enableWanderForce: 1
+  coefWanderForce: 0.05
+  maxWanderForce: 0.56
+  enableFlockCenterForce: 1
+  coefFlockCenterForce: 0.3
+  maxFlockCenterForce: 0.8
+  enableCollisionAvoidForce: 1
+  coefCollisionAvoidForce: 0.8
+  maxCollisionAvoidForce: 1
+  maxCollisionAvoidRadius: 3
+  enableVelocityMatchForce: 1
+  coefVelocityMatchForce: 0.3
+  maxVelocityMatchForce: 0.5
+  enableEnvironmentForce: 1
+  coefEnvironmentForce: 3
+  maxEnvironmentDistance: 10
+  enableTrail: 0
+  trailMaterial: {fileID: 2100000, guid: 8568066a0ee26dc43a0db01889033f12, type: 2}
+  trailTime: 3
+  trailWidth: 0.3

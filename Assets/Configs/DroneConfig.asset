@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f91c501c7f47ab44a0719879e27012a, type: 3}
+  m_Name: DroneConfig
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8209683877204906012, guid: ad67ef3414216ec4ba82b214b2e437b2, type: 3}

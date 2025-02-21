@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5befbeb6eccc1784ca721c0f93067865, type: 3}
+  m_Name: HelicopterConfig
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7049777217425563802, guid: 1b37ac292fcda5348a7ba6ef695da0e5, type: 3}
+  mainWeaponPrefab:
+  - {fileID: 8638271212134962123, guid: 251ab75e42fc75f4783685e49413f954, type: 3}
+  - {fileID: 8638271212134962123, guid: ffb0b26c6c47d0446b70e7fb2d5466da, type: 3}
+  - {fileID: 8638271212134962123, guid: 5cf069f04483d5347b21c8d76ec38d04, type: 3}
+  frontWeaponPrefab:
+  - {fileID: 4726687870107616203, guid: 85563fdc732900b439e841037f91f454, type: 3}
+  - {fileID: 4726687870107616203, guid: 616336ead57506c41bf83fafde7a43a3, type: 3}
+  - {fileID: 4726687870107616203, guid: e605bfe6133a8ef4dbb2371e6007797b, type: 3}
+  scaleRange: {x: 0.8, y: 1.2}
